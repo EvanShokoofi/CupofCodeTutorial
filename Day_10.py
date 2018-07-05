@@ -55,9 +55,9 @@ print('\n')
 for moomoo in range(1,50):
     if moomoo % 3 ==0:
         print('SUPAAA')
-    if moomoo % 5 ==0:
+    elif moomoo % 5 ==0:
         print('BADASS')
-    if moomoo % 3==0 and moomoo % 5 ==0:
+    elif moomoo % 3==0 and moomoo % 5 ==0:
         print('SUPER BADASS!!!')
     else:
         print(moomoo)
